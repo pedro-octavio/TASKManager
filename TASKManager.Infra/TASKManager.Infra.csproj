@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TASKManager.Domain.Core\TASKManager.Domain.Core.csproj" />
+    <ProjectReference Include="..\TASKManager.Domain.Services\TASKManager.Domain.Services.csproj" />
+    <ProjectReference Include="..\TASKManager.Domain\TASKManager.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
